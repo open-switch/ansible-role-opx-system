@@ -8,7 +8,7 @@ The ansible-role-opx-system role requires an SSH connection for connectivity to 
 Installation
 ------------
 
-    ansible-galaxy install open-switch.ansible-role-opx-system
+    ansible-galaxy install open-switch.opx-system
 
 Role variables
 --------------
@@ -115,4 +115,4 @@ It writes a simple playbook that only references the *ansible-role-opx-system* r
 
     ansible-playbook -i hosts leaf.yaml
 
-(c) 2017 Dell EMC
+(c) 2018 Dell EMC
